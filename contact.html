@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    
+    <nav class="navbar">
+        <div
+        class="container">
+        <a href="index.html" class="navbar-brand">
+            Planet.co
+        </a>
+        
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a href="nav-link">Blog</a>
+            </li>
+        </ul>
+        <a href="" class="button">Contact Us</a>
+        
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <!--main contact form-->
+        <div class="col-8">
+            
+            
+            <main>
+                <form action="mailto:admit@gamesnet.com"
+                method="post"
+                enctype="text/plain" class="contact-form">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3>Contact us</h3>
+                        </div>
+                    </div>
+                    <div>
+                        
+                        <!--first and last names-->
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-6">
+                                    
+                                    
+                                    <label for="first-name-input">First Name:</label>
+                                    <input type="text" id="first-name-input" name="first-name" placeholder="Jul" required>
+                                    
+                                </div>
+                                <div class="col-6">
+                                    
+                                    <label for="last-name-input">Last Name:</label>
+                                    <input type="text" id="last-name-input" name="last-name" placeholder="Smith" required>
+                                </div>
+                            </div>
+                            
+                            <!-- email adress-->
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="email-adress-input">Email Address:</label>
+                                    <input type="email" id="email-adress-input" name="email-adress" placeholder="abc@gamesnet.com" required>
+                                </div>
+                            </div>
+                            
+                            <!--topic dropdown-->
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="topic-dropdown">Topic:</label>
+                                    <select name="topic" id="topic-dropdown" required>
+                                        <option value=""></option>
+                                        <option value="tech-support">technical support</option>
+                                        <option value="submit-review">missinformation on blog</option>
+                                        <option value="problem">Donate/planet safe jobs</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <!--subject-->
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="subject-input">Subject:</label>
+                                    <input type="text" placeholder="game review: ES0" required>
+                                </div>
+                            </div>
+                            
+                            <!--message-->
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="">message</label>
+                                    <textarea name="message" id="messages-input" cols="30" rows="5" required></textarea>
+                                </div>
+                            </div>
+                            
+                            <!-- form buttons-->
+                            <div class="row">
+                                <div class="col-6">
+                                    <button type="submit" class="button">
+                                        send
+                                    </button>
+                                </div>
+                                
+                                <div class="col-6">
+                                    <button type="reset" class="button clear">
+                                        cancel
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                    </form>
+                </main>
+            </div>
+            
+            <!--side bar-->
+            <div class="col-4">
+                <div class="contact-details">
+                    <h3>snail mail</h3>
+                    <p>
+                        1, gamesnet,
+                        <br>
+                        triq il kbira
+                        <br>
+                        mosta
+                    </p>
+                    
+                    <hr>
+                    <!--horizontal rule-->
+                    <h3>email</h3>
+                    <a href="mailtp:infonest.com">info@gamesnet.com</a>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            &copy;2023,Nexle
+        </div>  
+    </footer>
+</body>
+</html>
