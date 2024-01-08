@@ -232,11 +232,12 @@ footer{
     text-align: center;
 }
 .jumbotron h1 {
-    background-color: #bbccec;
+    background-color: #df9e53;
     bottom: 0;
     margin: .0em;
     padding: .24em .5em;
     position: center;
+    color: #dff1f1;
 }
 
 figure{

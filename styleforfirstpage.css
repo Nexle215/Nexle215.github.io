@@ -222,7 +222,7 @@ footer{
 
 
 .jumbotron {
-    background-image: url(images/sharky.jpg);
+    background-image: url(images/startpage.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -232,13 +232,14 @@ footer{
     text-align: center;
 }
 .jumbotron h1 {
-    background-color: #6a8dce;
+    background-color: #1f4797;
     bottom: 0;
     margin: 0;
     left: 0;
     padding: .24em .5em;
     position: absolute;
     width: 100%;
+    color: #dff1f1;
 }
 
 figure{
